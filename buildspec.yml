@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - apt update
-      - docker update
+      - docker container update
       - docker pull loadimpact/k6
   build:
     commands:
