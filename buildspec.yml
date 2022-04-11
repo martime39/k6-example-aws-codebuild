@@ -8,7 +8,7 @@ phases:
       - 
   build:
     commands:
-      - docker version
+      - 
       - 
   post_build:
     commands:
