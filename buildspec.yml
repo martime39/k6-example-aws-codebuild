@@ -4,12 +4,12 @@ phases:
   pre_build:
     commands:
       - apt update
-      - docker container update
-      - docker pull loadimpact/k6
+      - lscpu
+      - 
   build:
     commands:
-      - echo Run performance test
-      - docker run -i loadimpact/k6 run - <scripts/test.js
+      - nvidia-smi
+      - 
   post_build:
     commands:
       - echo Performance test complete
