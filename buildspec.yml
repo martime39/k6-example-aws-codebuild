@@ -8,7 +8,7 @@ phases:
       - 
   build:
     commands:
-      - nvidia-smi
+      - docker version
       - 
   post_build:
     commands:
